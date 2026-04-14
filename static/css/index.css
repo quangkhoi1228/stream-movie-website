@@ -1,0 +1,60 @@
+.bg-transparent {
+  background-color: transparent !important ;
+}
+
+.navbar{
+    background-color: #09071B !important;
+    position: sticky;
+    top: 0;
+}
+
+body{
+  background-image: url("/static/images/bg-home.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  font-family: "Inter", sans-serif ;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+nav{
+  position: absolute;
+}
+
+.logo-center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+ }
+
+.home-info-container{
+font-weight: bold;
+margin-top: 64px;
+margin-bottom: 64px;
+}
+.home-info-container .text-blue{
+color: #1CD5F8;
+
+}
+
+.home-info-container h1{
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.text-opacity-50{
+  opacity: 0.5;
+}
+
+
+.video-community-container {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+ 
